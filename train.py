@@ -641,3 +641,5 @@ def run(**kwargs):
 if __name__ == "__main__":
     opt = parse_opt()
     main(opt)
+    print('val.py done')
+# Copyright (c) 2020-2022 Ultralytics, Inc. All Rights Reserved

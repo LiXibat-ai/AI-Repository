@@ -141,3 +141,4 @@ if __name__ == '__main__':
     results = model(imgs, size=320)  # batched inference
     results.print()
     results.save()
+    print('val.py done')
