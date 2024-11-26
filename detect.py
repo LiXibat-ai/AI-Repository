@@ -249,7 +249,6 @@ def parse_opt():
 
 def main(opt):
     check_requirements(exclude=('tensorboard', 'thop'))
-    print('Loading model...')
     run(**vars(opt))
 
 
