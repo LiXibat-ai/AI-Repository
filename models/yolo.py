@@ -31,6 +31,7 @@ except ImportError:
 
 
 class Detect(nn.Module):
+    print("Detect")
     stride = None  # strides computed during build
     onnx_dynamic = False  # ONNX export parameter
 
