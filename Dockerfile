@@ -62,3 +62,6 @@ ADD https://ultralytics.com/assets/Arial.ttf /root/.config/Ultralytics/
 
 # GCP VM from Image
 # docker.io/ultralytics/yolov5:latest
+
+# GCP VM from Container
+# docker.io/ultralytics/yolov5:latest

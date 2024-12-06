@@ -252,6 +252,7 @@ def main(opt):
     print('Loading model...')
     run(**vars(opt))
 
+# r入口函数
 
 if __name__ == "__main__":
     opt = parse_opt()

@@ -558,3 +558,6 @@ if __name__ == "__main__":
     opt = parse_opt()
     main(opt)
     print('val.py done')
+
+
+# Export a YOLOv5 *.pt model to TorchScript, ONNX, CoreML, TensorFlow SavedModel, TFLite, Edge TPU, OpenVINO, TensorRT, and CoreML formats
