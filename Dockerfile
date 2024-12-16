@@ -60,8 +60,3 @@ ADD https://ultralytics.com/assets/Arial.ttf /root/.config/Ultralytics/
 # DDP test
 # python -m torch.distributed.run --nproc_per_node 2 --master_port 1 train.py --epochs 3
 
-# GCP VM from Image
-# docker.io/ultralytics/yolov5:latest
-
-# GCP VM from Container
-# docker.io/ultralytics/yolov5:latest

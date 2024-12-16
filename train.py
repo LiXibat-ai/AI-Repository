@@ -637,7 +637,6 @@ def run(**kwargs):
     main(opt)
     return opt
 
-# Copyright (c) 2020-2022 Ultralytics, Inc. All Rights Reserved
 
 if __name__ == "__main__":
     opt = parse_opt()
