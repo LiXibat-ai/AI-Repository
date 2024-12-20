@@ -52,6 +52,9 @@ git fetch upstream
 # git checkout feature  # <--- replace 'feature' with local branch name
 git merge upstream/master
 git push -u origin -f
+
+
+
 ```
 
 - ✅ Verify all Continuous Integration (CI) **checks are passing**.

@@ -121,6 +121,8 @@ def yolov5x6(pretrained=True, channels=3, classes=80, autoshape=True, verbose=Tr
 
 # end
 
+
+
 if __name__ == '__main__':
     model = _create(name='yolov5s', pretrained=True, channels=3, classes=80, autoshape=True, verbose=True)  # pretrained
     # model = custom(path='path/to/model.pt')  # custom
