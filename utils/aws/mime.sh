@@ -11,7 +11,7 @@ MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="cloud-config.txt"
 
-#cloud-config
+#cloud-confi
 cloud_final_modules:
 - [scripts-user, always]
 

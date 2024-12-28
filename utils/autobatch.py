@@ -14,7 +14,7 @@ from utils.torch_utils import profile
 
 
 def check_train_batch_size(model, imgsz=640):
-    # Check YOLOv5 training batch size
+    # Check YOLOv5 training batch siz
     with amp.autocast():
         return autobatch(deepcopy(model).train(), imgsz)  # compute optimal batch size
 

@@ -14,7 +14,7 @@ import torch
 def _create(name, pretrained=True, channels=3, classes=80, autoshape=True, verbose=True, device=None):
     """Creates or loads a YOLOv5 model
 
-    Arguments:
+    Arguments
         name (str): model name 'yolov5s' or path 'path/to/best.pt'
         pretrained (bool): load pretrained weights into the model
         channels (int): number of input channels

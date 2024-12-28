@@ -18,7 +18,7 @@ RUN pip install --no-cache -r requirements.txt albumentations wandb gsutil noteb
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-# Copy contents
+# Copy content
 COPY . /usr/src/app
 
 # Downloads to user config dir
